@@ -1,0 +1,34 @@
+# ---- Python ----
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+build/
+dist/
+
+# ---- uv / virtual env ----
+.venv/
+# note: keep uv.lock TRACKED — do not add it here
+
+# ---- Secrets: never commit these ----
+.env
+.env.*
+!.env.example
+secrets/
+*-service-account.json
+service_account*.json
+credentials*.json
+client_secret*.json
+*.pem
+*.key
+
+# ---- Editor / OS ----
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# ---- Jupyter ----
+.ipynb_checkpoints/
