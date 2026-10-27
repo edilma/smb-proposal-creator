@@ -7,7 +7,11 @@ authors = [
     { name = "Edilma Riano", email = "edilmaria@hotmail.com" }
 ]
 requires-python = ">=3.12"
-dependencies = []
+dependencies = [
+    "google-auth>=2.62.0",
+    "gspread>=6.2.1",
+    "python-dotenv>=1.2.4",
+]
 
 [project.scripts]
 smb-proposal-creator = "smb_proposal_creator:main"

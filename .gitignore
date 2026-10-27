@@ -32,3 +32,6 @@ Thumbs.db
 
 # ---- Jupyter ----
 .ipynb_checkpoints/
+
+#personal folder notes
+notes/
